@@ -1,3 +1,11 @@
+/*
+	thanks for your efforts. please find below comments 
+	1- make sure that when you create a primary key it is identity(1,1)
+	2- ensure that the lookups has a Unique constraints to ensure that there is not duplicate data (like CountryName)
+	3- make sure that the mandatory fields has a not null constrains like (email,username,password in users table for example)
+	4- Define precision for decimal fields.
+*/
+
 create table Countries(
 	CountryId int primary Key,
 	CountryName nvarchar(150)
