@@ -1,4 +1,8 @@
+/*
+	thanks for your efforts but not all the stored are created please make sure to create the remaining
 
+	1- the table's primary key is not identity so inserting without will result with an error 
+*/
 create procedure CreateUser
     @Username nvarchar(250), 
     @Email nvarchar(250), 
